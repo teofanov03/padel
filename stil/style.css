@@ -1,0 +1,343 @@
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    
+    .navigacioni-meni {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        
+       background-color: green;
+       border: 4px solid greenyellow;
+       border-radius: 50px;
+     
+        
+    }
+    body{
+        margin: 0;
+        background-color: #5efc03;
+    }
+    .navigacija .link {
+        display: inline;
+        font-size: 15px;
+    
+    
+    }
+    .navigacija .link a{
+        list-style-type: none;
+        text-decoration: none;
+        font-size: large;
+        margin: 100px;
+        border: 2px solid #5efc03;
+        padding: 15px;
+        border-radius: 30px;
+        color: white    ;
+       
+    }
+    .navigacija .link a:hover{
+        color: black;
+        background-color: #359100;
+        font-weight: bolder;
+        
+    }
+    #logo{
+       display: flex;
+       align-items: flex-start;
+       margin: auto;
+    }
+    .kartica{
+        width: 80%;
+        height: auto;
+        margin: 100px auto;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        border: 3px solid black  ;
+        border-radius: 20px;
+        background-color: green;
+    }
+    .kartica .reket .padel{
+        width: 50%;
+        height: 100%;
+        
+    }
+    .padel p{
+        font-weight: bolder;
+        color:white ;
+        justify-content: center;
+        font-size: medium;
+        padding-left: 10px;
+    }
+    .padel h2{
+        justify-content: center;
+        text-align: center;
+        padding-left: 10px;
+    }
+    footer{
+        background-color: black;
+        border: 1px solid green;
+        border-radius: 20px;
+    
+    }
+    #text-iznad-forme{
+        text-align: center;
+        color: rgb(134, 123, 123);
+    }
+    .forma{
+        background-color: rgb(65, 179, 30);
+        width: 500px;
+        height: 550px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 5px solid green;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    .polja{
+        margin: 15px auto;
+        width: 300px;
+    }
+    .polja input{
+        border: 2px solid rgb(23, 206, 17);
+        padding: 10px;
+        width: 280px;
+        border-radius: 20px;
+    }
+    .prijava{
+        display: block;
+        margin: auto;
+        font-weight: bold;
+        border: 2px solid rgb(23, 206, 17);
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 150px;
+    }
+    .prijava:hover{
+        background-color: rgb(223, 212, 212);
+        cursor: pointer;
+    }
+    footer{
+        background-color: black;
+        border: 3px solid rgb(151, 133, 133);
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-around;
+        
+        margin: auto;
+    }
+    footer img{
+        width: 75px;
+        height: 75px;
+        padding: 10px;
+    }
+    .ko-smo-mi{
+        width: 800px;
+        margin: 25px auto;
+        border: 3px solid black ;
+        border-radius: 20px;
+        background-color: green;
+        
+    }
+    .ko-smo-mi h2{
+        text-align: center;
+    }
+    .ko-smo-mi #text-ko-smo-mi{
+        font-size: 25px;
+        text-align: justify;
+        padding: 7px;
+    }
+    .O-nama{
+        width: 800px;
+        margin: 45px auto;
+        border: 3px solid black ;
+        border-radius: 20px;
+        background-color: green;
+    }
+    .O-nama h2{
+        text-align: center;
+    }
+    .O-nama p{
+        font-size: 25px;
+        text-align: justify;
+        padding: 5px;
+    }
+    .tabela{
+        width: 300px;
+        margin: 25px auto;
+    }
+    th, td{
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .u-forma {
+        background-color: rgb(65, 179, 30);
+        width: 500px;
+        height: auto;
+        margin: 50px auto;
+        padding: 20px;
+        border: 5px solid green;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    #text-inzad-formi{
+        font-size: 20px;
+        text-align: center  ;
+    }
+    .u-forma input{
+        border: 2px solid rgb(23, 206, 17);
+        padding: 10px;
+        width: 280px;
+        border-radius: 20px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .u-forma p{
+        text-align: center;
+    }
+    .tabela_zakazanih{
+    margin: 35px auto;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    }
+    .ispis-forme{
+        background-color: gold;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid black;
+        margin: 20px auto;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+         border-radius: 10px;
+    }
+    .promena:hover{
+        background-color: rgb(223, 212, 212);
+        cursor: pointer;
+    }
+    .forme{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .forme .u-forma .d-forma{
+        width: 50%;
+        height: 100%;
+    }
+    .promena{
+        display: block;
+        margin: auto;
+        font-weight: bold;
+        border: 2px solid rgb(23, 206, 17);
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 150px;
+    }
+    .d-forma{
+        background-color: rgb(65, 179, 30);
+        width: 500px;
+        height: auto;
+        margin: 50px auto;
+        padding: 20px;
+        border: 5px solid green;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    .d-forma input{
+        border: 2px solid rgb(23, 206, 17);
+        padding: 10px;
+        width: 280px;
+        border-radius: 20px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .d-forma p{
+        text-align: center;
+    }
+   .uispis{
+    background-color: gold;
+    width: 80%;
+    max-width: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+     border-radius: 10px;}
+
+     .dispis{
+        background-color: gold;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid black;
+        margin: 20px auto;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+         border-radius: 10px;
+     }
+
+   
+    @media screen and (min-width:320px) and (max-width:425px) {
+        .navigacija{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+              padding: 0px;
+              width: 100%;
+              text-align: center;
+              flex-direction: column;
+          }
+          .navigacija .link  a{
+              font-size: 14px;
+              margin: 10px;
+              padding: 10px;
+              display: flex;
+    
+             
+          }
+         
+          #logo{
+            width: 150px;
+            height: 60px;
+            margin: auto;
+            margin-right: 300px;
+           }
+           .kartica{
+            display: flex;
+            flex-direction: column;
+           }
+           #text-iznad-forme{
+            font-size: 15px;
+           }
+           .forma{
+            width: 250px;
+           }
+           .polja input{
+            width: 200px;
+            margin-left: 10px;
+           }
+    }
+    @media screen and (min-width:768px) and (max-width:1024px) {
+        #text-inzad-forme{
+            font-size: 12px;
+           }
+    
+    }

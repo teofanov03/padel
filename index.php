@@ -1,0 +1,66 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZTVW0GPFMR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZTVW0GPFMR');
+</script>
+
+    <link rel="icon" href="slike/favicon.ico">
+    <script src="script.js"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Zakazivanje padela-Padel centar" />
+    <meta property="og:description" content="Zakazi padel kod nas" />
+    <meta property="og:image" content="https://slike/logo.png" />
+    <meta property="og:url" content="https://teofanov03.github.io/projekatvb/" />
+    <meta property="og:type" content="website" />
+   
+<script src="script.js"></script>
+<link rel="stylesheet" href="stil/style.css">
+    
+    <title>Zakazivanje padela-Padel centar</title>
+    <meta name="description" content="zakazivanje padela, sta je padel,igranje padela">
+    <meta name="keywords" content="padel,padel novi sad,padel srbija,padel centar">
+</head>
+<body>
+    <div class="navigacioni-meni"><ul class="navigacija">
+        <img src="slike/logo.png" id="logo" alt="padel-central">
+        <li class="link"><a href="takmicenja.php">Takmicenja</a></li>
+        <li class="link"><a href="onama.php">O nama</a></li>
+        <li class="link"><a href="index.php" >Sta je padel?</a></li>
+        <li class="link"><a href="zakazivanje.php">Zakazivanje</a></li>
+    </ul>
+</div>
+<div class="fb-like" data-href="https://teofanov03.github.io/porjekatvb/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
+<div class="kartica">
+
+    
+    <div class="reket"><img src="slike/padel.png" loading="lazy" alt="sta je padel" >
+    </div>
+    <div class="padel">
+            <h2>Šta je padel</h2>
+            <p>Padel je sport koji kombinuje akciju sa zabavom i društvenom interakcijom. To je odličan sport za igrače svih uzrasta i veština, jer se brzo i lako savlada. Većina igrača dobija osnove u prvih pola sata igranja kako bi mogli da uživaju u igri.
+
+                Padelom ne dominiraju snaga, tehnika i servis kao što se to dešava u tenisu i stoga je idealna igra za muškarce, žene i omladinu da se takmiče zajedno. Važna veština je umešnost, jer se poeni dobijaju pre strategijom nego čistom snagom i moći.
+                
+                Izmišljen 1969. u Meksiku od strane Enrikea Korkere, padel je prepoznat kao internacionalni sport u septembru 2019. godine i sada je jedan od svetskih najbrže rastućih sportova po učešću. Trenutno se igra u 57 zemalja širom sveta. Mnogi mu predviđaju status olimpijskog sporta u bliskoj budućnosti za šta treba da je prisutan u 75 zemalja.
+                 Padel je već prevazišao tenis kao najpopularniji sport u Španiji po količini prodane opreme.</p>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
