@@ -47,7 +47,7 @@ $takmicenja = [
         <img src="slike/logo.png" id="logo" alt="padel-central">
         <li class="link"><a href="takmicenja.php">Takmicenja</a></li>
         <li class="link"><a href="onama.php">O nama</a></li>
-        <li class="link"><a href="index.php">Sta je padel?</a></li>
+        <li class="link"><a href="index.html">Sta je padel?</a></li>
         <li class="link"><a href="zakazivanje.php">Zakazivanje</a></li>
     </ul>
 </div>
